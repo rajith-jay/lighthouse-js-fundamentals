@@ -44,3 +44,34 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+
+const whichSchool  = function (age) {
+  
+  if (age < 13) {
+    console.log("Elementry school");
+  } else if (age >= 13 && age <= 18) {
+    console.log("Secondary school");
+  } else  {
+    console.log("Lighthouse Labs");
+  }
+}
+console.log(whichSchool(19));
+
+
+var x = 1;
+
+while (x <= 20) {
+    if (x % 3 === 0) {
+        console.log("Julia");
+    } else if (x % 5 === 0){
+        console.log("James");
+    } else if (x % 3 === 0 && x % 5 === 0) {
+        console.log("JuliaJames");
+    } else {
+        console.log(x);
+    }
+    
+    x = x + 1;
+}
+
+
